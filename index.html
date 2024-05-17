@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio @imranajmain</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/bmi.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+    <style>
+        /* Navigation Styles */
+        /* Navigation Styles */
+.main-nav {
+    background-color: #333; /* Dark background color */
+    padding: 15px 0; /* Add padding */
+    text-align: center; /* Center align text */
+}
+
+.main-nav .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nav .logo {
+    font-size: 40px;
+    color: #fff; /* White color for logo */
+    font-weight: bold;
+    margin: 0; /* Remove default margin */
+}
+
+.navbar.item-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar.item-nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar.item-nav ul li a {
+    color: #fff; /* White color for navigation links */
+    text-decoration: none;
+    font-size: 25px;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.navbar.item-nav ul li a:hover {
+    color: #FFFF00; /* Change color on hover */
+}
+
+.navbar.item-nav ul li.active a {
+    color: #FFFF00; /* Yellow color for active navigation link */
+}
+
+        /* Additional Styles */
+        .intro h1:before {
+            content: 'Imran';
+        }
+
+        /* Portfolio Section Styles */
+        .portfolio-section {
+            padding: 50px 0;
+            background-color: #f4f4f4;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .portfolio-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .portfolio-section p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+
+        .portfolio-section .btn {
+            font-size: 18px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .portfolio-section .btn:hover {
+            background-color: #ffee01e1;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            font-weight: bold;
+        }
+
+        footer ul li {
+            display: inline-block;
+        }
+
+        footer ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer ul li a:hover {
+            color: #ffee01e1;
+        }
+
+        .footer-bottom {
+            background-color: #4e4e4e;
+            color: #bbb;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+
+        .footer-bottom p {
+            color: yellow; /* Change the text color to yellow */
+        }
+
+        .footer-main p {
+            color: yellow; /* Change the text color to yellow */
+        }
+
+        /* Quote Section */
+        .quote {
+            background: none; /* Ensure no background image */
+            padding: 50px 0; /* Add padding if needed */
+            text-align: center; /* Center align text */
+            font-weight: bold;
+        }
+
+        .quote h1 {
+            font-size: 36px;
+            color: #333; /* Change text color if needed */
+            font-weight: bold;
+        }
+
+        /* Avatar Image Style */
+        .avatar {
+            width: 400px; /* Increase the size of the avatar */
+            height: 400px; /* Maintain aspect ratio */
+            border-radius: 50%; /* Make it circular */
+        }
+
+        /* Styles for list items */
+        li {
+            list-style-type: none;
+            margin-bottom: 20px; /* Adjust spacing between list items */
+        }
+
+        /* Styles for education list */
+        .education-list .year {
+            font-weight: bold;
+        }
+
+        .education-list .title {
+            color: #333;
+        }
+
+        /* Styles for award list */
+        .award-list .year {
+            font-weight: bold;
+        }
+
+        .award-list .description {
+            color: #333;
+        }
+
+        /* Styles for skill list */
+        .skill-list .skill-title {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="main-nav">
+        <div class="container">
+            <header class="group top-nav">
+                <div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+                    <span class="logo">IMRAN</span>
+                </div>
+                <nav id="navbar-1" class="navbar item-nav">
+                    <ul>
+                        <li class="active"><a href="#about">About</a></li>
+                        <li><a href="#experiences">Education</a></li>
+                        <li><a href="#achievements">Achievements</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="works.html">Works</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <!-- Introduction -->
+    <div class="intro section" id="about">
+        <div class="container">
+            <div class="units-row units-split wrap">
+                <div class="unit-20">
+                    <img src="me.png" alt="Avatar" class="avatar">
+                </div>
+                <div class="unit-80">
+                    <h1>I am your<br><span id="typed"></span></h1>
+                </div>
+                <p>
+                    Bachelors in computer science (Hons.) multimedia computing student with current CGPA of 3.27 who 
+is currently seeking an internship placement. Skilled in a wide array of programming languages, encompassing Java, HTML, and multimedia 
+expertise including proficiency in design tools like Adobe Photoshop, Adobe Premiere Pro, and 
+website design. Reliable team player with excellent communication and problem-solving abilities. 
+Eager to contribute to a team environment and make contributions to real-world projects during the 
+internship, leveraging my expertise in computer science and multimedia.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div class="portfolio-section">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <p>Explore my work and see the projects I have completed in web design, video editing, and graphic design.</p>
+            <a href="works.html" class="btn">See My Works</a>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="education section second" id="experiences">
+        <div class="container">
+            <h1>MY<br>Education</h1>
+            <ul class="education-list">
+                <li><span class="year">2018-2020</span><br><span class="title">Matriculation</span><br>Perak Matriculation College ; Module 2<br>CGPA: 3.33</li>
+                <li><span class="year">2020-Current</span><br><span class="title">University</span><br>UiTM Shah Alam ; Bachelor of Computer Science (Hons.) Multimedia Computing<br>CGPA: 3.27<br>Scholarship: Recipient of Penajaan Program Ijazah Dalam Negara (PIDN) JPA</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Achievements Section -->
+    <div class="award section second" id="achievements">
+        <div class="container">
+            <h1>My<br>Achievements</h1>
+            <ul class="award-list">
+                <li><span class="year">2021</span><br><span class="description">No.1 in E-Genting Competitions Students 2021 (APU University Malaysia) of Making Currency Converter C++ System</span></li>
+                <li><span class="year">2020</span><br><span class="description">No.2 Best Crew of Cybersecurity Programme by MDEC 2020</span></li>
+                <li><span class="year">2019</span><br><span class="description">No.2 in Making Short Film Corruption by MBSA SELANGOR 2019</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="skills section second" id="skills">
+        <div class="container">
+            <h1>My<br>Skills</h1>
+            <ul class="skill-list">
+                <li><span class="skill-title">Web Designer</span><br>HTML / CSS / PHP / Javascript</li>
+                <li><span class="skill-title">Video Editor</span><br>Adobe Premier Pro / Adobe After Effects</li>
+                <li><span class="skill-title">Graphic Designer</span><br>Adobe Photoshop/ Adobe Illustrator / Blender / Canva</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="units-row">
+                <div class="unit-50 footer-main">
+                    <p style="color: rgb(255, 255, 255);">My Portfolio : Amirul Imran</p>
+                </div>
+                <div class="unit-50">
+                    <ul class="social list-flat right">
+                        <li><a href="mailto:imranajmain901@gmail.com"><i class="fa fa-send"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/muhammad-amirul-imran-bin-abdullah-75b8b0223/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/ajmainnnnn/"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© AmirulImran. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/bmi.js"></script>
+    <script>
+        function newTyped(){}$(function(){$("#typed").typed({
+        strings: ["Web Designer", "Video Editor", "Graphic Designer"],
+        typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>

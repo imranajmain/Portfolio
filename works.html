@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Works | Amirul Imran</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/bmi.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Works Page Styles */
+        .works-header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #f4f4f4;
+        }
+
+        .works-header h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .works-header p {
+            font-size: 18px;
+            color: #777;
+            font-weight: bold
+        }
+
+        .works-section {
+            margin: 50px 0;
+        }
+
+        .works-section h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .works-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .works-item {
+            flex: 1 1 calc(33.333% - 20px);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .works-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .works-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .black-background {
+            background-color: black;
+            padding: 10px; /* Adjust padding if needed to ensure the image is fully visible */
+            display: inline-block; /* Ensures the background color is applied to the area around the image */
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            background-color: #f4f4f4;
+            padding: 50px;
+            margin: 50px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .contact-form .form-group {
+            margin-bottom: 20px;
+        }
+
+        .contact-form .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .contact-form .form-group input,
+        .contact-form .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form .form-group textarea {
+            resize: vertical;
+            height: 150px;
+        }
+
+        .contact-form .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            text-align: center;
+        }
+
+        .contact-form .btn:hover {
+            background-color: #ffee01e1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Works Header -->
+    <div class="works-header">
+        <div class="container">
+            <h1>My Works</h1>
+            <p>Explore the extensive range of projects I've undertaken, meticulously categorized into various types including banner logos and other creative works. My portfolio showcases the breadth and depth of my experience, highlighting my versatility and expertise in different design domains..</p>
+        </div>
+    </div>
+
+    <!-- Posters Section -->
+    <div class="works-section" id="posters">
+        <div class="container">
+            <h2>Posters</h2>
+            <div class="works-grid">
+                <div class="works-item">
+                    <img src="p1.png" alt="Poster 1">
+                </div>
+                <div class="works-item">
+                    <img src="p2.png" alt="Poster 2">
+                </div>
+                <div class="works-item">
+                    <img src="p3.jpeg" alt="Poster 3">
+                </div>
+                <div class="works-item">
+                    <img src="p4.jpg" alt="Poster 4">
+                </div>
+                <div class="works-item">
+                    <img src="p5.jpg" alt="Poster 5">
+                </div>
+                <div class="works-item">
+                    <img src="p6.jpg" alt="Poster 6">
+                </div>
+                <div class="works-item">
+                    <img src="p7.png" alt="Poster 5">
+                </div>
+                <div class="works-item">
+                    <img src="p8.png" alt="Poster 6">
+                </div>
+                <div class="works-item">
+                    <img src="p9.jpg" alt="Poster 6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Logos Section -->
+    <div class="works-section" id="logos">
+        <div class="container">
+            <h2>Logos</h2>
+            <div class="works-grid">
+                <div class="works-item black-background">
+                    <img src="l1.png" alt="Logo 1">
+                </div>
+                <div class="works-item">
+                    <img src="l2.png" alt="Logo 2">
+                </div>
+                <div class="works-item black-background">
+                    <img src="l3.png" alt="Logo 3">
+                </div>
+                <div class="works-item">
+                    <img src="l4.png" alt="Logo 4">
+                </div>
+                <div class="works-item">
+                    <img src="l5.png" alt="Logo 5">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banners Section -->
+    <div class="works-section" id="banners">
+        <div class="container">
+            <h2>Banners</h2>
+            <div class="works-grid">
+                <div class="works-item">
+                    <img src="b1.jpg" alt="Banner 1">
+                </div>
+                <div class="works-item">
+                    <img src="b2.png" alt="Banner 2">
+                </div>
+                <div class="works-item">
+                    <img src="b3.png" alt="Banner 3">
+                </div>
+                <div class="works-item">
+                    <img src="b4.png" alt="Banner 4">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Others Section -->
+    <div class="works-section" id="others">
+        <div class="container">
+            <h2>Others</h2>
+            <div class="works-grid">
+                <div class="works-item">
+                    <img src="o1.jpg" alt="Other Work 1">
+                </div>
+                <div class="works-item">
+                    <img src="o2.png" alt="Other Work 2">
+                </div>
+                <div class="works-item">
+                    <img src="o3.jpg" alt="Other Work 3">
+                </div>
+                <div class="works-item">
+                    <img src="o4.png" alt="Other Work 4">
+                </div>
+                <div class="works-item">
+                    <img src="o5.png" alt="Other Work 4">
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Video Section -->
+<div class="works-section" id="video">
+    <div class="container">
+        <h2>Video</h2>
+        <div class="works-grid">
+            <div class="works-item">
+                <a href="https://www.youtube.com/watch?v=t6weSCX8pHI" target="_blank">
+                    <img src="video.png" alt="Video Thumbnail">
+                </a>
+                <p style="text-align: center; font-size: 24px; font-weight: bold; font-family: 'Playfair Display SC', serif;">Click the video to watch it on YouTube</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Contact Form Section -->
+    <div class="contact-form">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="mailto:imranajmain901@gmail.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+   
+    <footer>
+        <div class="container">
+            <div class="units-row">
+                <div class="unit-50 footer-main">
+                    <p style="color: black;">My Portfolio : Amirul Imran</p>
+                </div>
+                <div class="unit-50">
+                    <ul class="social list-flat right">
+                        <li><a href="mailto:imranajmain901@gmail.com"><i class="fa fa-send"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/muhammad-amirul-imran-bin-abdullah-75b8b0223/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/ajmainnnnn/"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© AmirulImran. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
